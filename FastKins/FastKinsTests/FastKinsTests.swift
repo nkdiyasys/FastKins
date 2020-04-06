@@ -28,7 +28,7 @@ class FastKinsTests: XCTestCase {
         }
     
     func testCheck_EmailIsValid(){
-          let email = "test@gmail.com"
+          let email = "l.com"
           let isValid = vc.isValidEmail(email: email)
           XCTAssertTrue(isValid, "Email is Valid")
       }
