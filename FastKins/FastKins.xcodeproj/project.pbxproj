@@ -16,6 +16,7 @@
 		33AB5CAA243714BA00FF46CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AB5CA8243714BA00FF46CD /* LaunchScreen.storyboard */; };
 		33AB5CB5243714BA00FF46CD /* FastKinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AB5CB4243714BA00FF46CD /* FastKinsTests.swift */; };
 		33AB5CC0243714BA00FF46CD /* FastKinsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AB5CBF243714BA00FF46CD /* FastKinsUITests.swift */; };
+		33EAA176243B0E6700AE218C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EAA175243B0E6700AE218C /* Alamofire.framework */; };
 		3CAB1957D193FF9130A07E71 /* Pods_FastKins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6219EA571E42636195729B /* Pods_FastKins.framework */; };
 		9D1837C155294DCFC490DF05 /* Pods_FastKins_FastKinsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9BB79456CC7F4E20E7FC9B /* Pods_FastKins_FastKinsUITests.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		33AB5CBB243714BA00FF46CD /* FastKinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastKinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AB5CBF243714BA00FF46CD /* FastKinsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastKinsUITests.swift; sourceTree = "<group>"; };
 		33AB5CC1243714BA00FF46CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33EAA175243B0E6700AE218C /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		597B75A2E4FF61952E1759E6 /* Pods-FastKins.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastKins.release.xcconfig"; path = "Target Support Files/Pods-FastKins/Pods-FastKins.release.xcconfig"; sourceTree = "<group>"; };
 		5A9BB79456CC7F4E20E7FC9B /* Pods_FastKins_FastKinsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastKins_FastKinsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FCEB47F379BB378C0BD5E91 /* Pods-FastKins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastKins.debug.xcconfig"; path = "Target Support Files/Pods-FastKins/Pods-FastKins.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33EAA176243B0E6700AE218C /* Alamofire.framework in Frameworks */,
 				3CAB1957D193FF9130A07E71 /* Pods_FastKins.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,6 +151,7 @@
 		79F73B8558A31D04312839AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				33EAA175243B0E6700AE218C /* Alamofire.framework */,
 				AF6219EA571E42636195729B /* Pods_FastKins.framework */,
 				5A9BB79456CC7F4E20E7FC9B /* Pods_FastKins_FastKinsUITests.framework */,
 				A8BC8D413358229145C1F6FF /* Pods_FastKinsTests.framework */,
