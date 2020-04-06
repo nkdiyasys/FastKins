@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -165,7 +165,6 @@
 				1D094FAFDA4664B907FC745F /* Pods-FastKinsTests.debug.xcconfig */,
 				3DDCCE5A27F3F1CC79EBBFBB /* Pods-FastKinsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -639,7 +638,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D094FAFDA4664B907FC745F /* Pods-FastKinsTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FastKinsTests/Info.plist;
@@ -661,7 +660,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3DDCCE5A27F3F1CC79EBBFBB /* Pods-FastKinsTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FastKinsTests/Info.plist;
@@ -683,7 +682,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F4C7089E7BE35D9813064CA6 /* Pods-FastKins-FastKinsUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FastKinsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -703,7 +702,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6CCAB01E296548C39215F4AF /* Pods-FastKins-FastKinsUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FastKinsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

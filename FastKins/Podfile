@@ -9,10 +9,12 @@ pod 'Alamofire'
 
   target 'FastKinsTests' do
     inherit! :search_paths
+    pod 'Alamofire'
     # Pods for testing
   end
 
   target 'FastKinsUITests' do
+    pod 'Alamofire'
     # Pods for testing
   end
 
