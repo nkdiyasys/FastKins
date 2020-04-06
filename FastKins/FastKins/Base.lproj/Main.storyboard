@@ -33,6 +33,9 @@
                                 <accessibility key="accessibilityConfiguration" label="TestButton"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="25"/>
                                 <state key="normal" title="Check"/>
+                                <connections>
+                                    <action selector="clickEmail:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GTY-yx-Z0N"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
