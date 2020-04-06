@@ -15,6 +15,9 @@
 		33AB5CAA243714BA00FF46CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AB5CA8243714BA00FF46CD /* LaunchScreen.storyboard */; };
 		33AB5CB5243714BA00FF46CD /* FastKinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AB5CB4243714BA00FF46CD /* FastKinsTests.swift */; };
 		33AB5CC0243714BA00FF46CD /* FastKinsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AB5CBF243714BA00FF46CD /* FastKinsUITests.swift */; };
+		843C4B6C8EAB89ED86041CEE /* Pods_FastKins_FastKinsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C94A2B2185CE718FA71BE36 /* Pods_FastKins_FastKinsUITests.framework */; };
+		98350A21DB8EF0015C20C0A1 /* Pods_FastKinsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A1A5A29A7025DA6A2356EA /* Pods_FastKinsTests.framework */; };
+		B66DA21ECA45FA55727CFBF7 /* Pods_FastKins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1335231C983E908CCCA8A5 /* Pods_FastKins.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08B9D34B62CA1952DE162B9D /* Pods-FastKins.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastKins.release.xcconfig"; path = "Target Support Files/Pods-FastKins/Pods-FastKins.release.xcconfig"; sourceTree = "<group>"; };
+		0C94A2B2185CE718FA71BE36 /* Pods_FastKins_FastKinsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastKins_FastKinsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D094FAFDA4664B907FC745F /* Pods-FastKinsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastKinsTests.debug.xcconfig"; path = "Target Support Files/Pods-FastKinsTests/Pods-FastKinsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		33AB5C9A243714B200FF46CD /* FastKins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastKins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AB5C9D243714B200FF46CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33AB5C9F243714B200FF46CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		33AB5CBB243714BA00FF46CD /* FastKinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastKinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AB5CBF243714BA00FF46CD /* FastKinsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastKinsUITests.swift; sourceTree = "<group>"; };
 		33AB5CC1243714BA00FF46CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DDCCE5A27F3F1CC79EBBFBB /* Pods-FastKinsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastKinsTests.release.xcconfig"; path = "Target Support Files/Pods-FastKinsTests/Pods-FastKinsTests.release.xcconfig"; sourceTree = "<group>"; };
+		6CCAB01E296548C39215F4AF /* Pods-FastKins-FastKinsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastKins-FastKinsUITests.release.xcconfig"; path = "Target Support Files/Pods-FastKins-FastKinsUITests/Pods-FastKins-FastKinsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E5A1A5A29A7025DA6A2356EA /* Pods_FastKinsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastKinsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F190F44620282E6B197CC9E1 /* Pods-FastKins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastKins.debug.xcconfig"; path = "Target Support Files/Pods-FastKins/Pods-FastKins.debug.xcconfig"; sourceTree = "<group>"; };
+		F4C7089E7BE35D9813064CA6 /* Pods-FastKins-FastKinsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastKins-FastKinsUITests.debug.xcconfig"; path = "Target Support Files/Pods-FastKins-FastKinsUITests/Pods-FastKins-FastKinsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC1335231C983E908CCCA8A5 /* Pods_FastKins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastKins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B66DA21ECA45FA55727CFBF7 /* Pods_FastKins.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98350A21DB8EF0015C20C0A1 /* Pods_FastKinsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843C4B6C8EAB89ED86041CEE /* Pods_FastKins_FastKinsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30970C9AEEAB1EA06DAEC623 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC1335231C983E908CCCA8A5 /* Pods_FastKins.framework */,
+				0C94A2B2185CE718FA71BE36 /* Pods_FastKins_FastKinsUITests.framework */,
+				E5A1A5A29A7025DA6A2356EA /* Pods_FastKinsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		33AB5C91243714B200FF46CD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				33AB5CB3243714BA00FF46CD /* FastKinsTests */,
 				33AB5CBE243714BA00FF46CD /* FastKinsUITests */,
 				33AB5C9B243714B200FF46CD /* Products */,
+				A071D77A325998A829E14961 /* Pods */,
+				30970C9AEEAB1EA06DAEC623 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,20 @@
 			path = FastKinsUITests;
 			sourceTree = "<group>";
 		};
+		A071D77A325998A829E14961 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F190F44620282E6B197CC9E1 /* Pods-FastKins.debug.xcconfig */,
+				08B9D34B62CA1952DE162B9D /* Pods-FastKins.release.xcconfig */,
+				F4C7089E7BE35D9813064CA6 /* Pods-FastKins-FastKinsUITests.debug.xcconfig */,
+				6CCAB01E296548C39215F4AF /* Pods-FastKins-FastKinsUITests.release.xcconfig */,
+				1D094FAFDA4664B907FC745F /* Pods-FastKinsTests.debug.xcconfig */,
+				3DDCCE5A27F3F1CC79EBBFBB /* Pods-FastKinsTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33AB5CC4243714BA00FF46CD /* Build configuration list for PBXNativeTarget "FastKins" */;
 			buildPhases = (
+				5CD2E2954DACDAD9F2390246 /* [CP] Check Pods Manifest.lock */,
 				33AB5C96243714B200FF46CD /* Sources */,
 				33AB5C97243714B200FF46CD /* Frameworks */,
 				33AB5C98243714B200FF46CD /* Resources */,
+				EDB3AD84CD91E93B612EF3C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33AB5CC7243714BA00FF46CD /* Build configuration list for PBXNativeTarget "FastKinsTests" */;
 			buildPhases = (
+				467CE692E1A9548A9A4FEA4A /* [CP] Check Pods Manifest.lock */,
 				33AB5CAC243714BA00FF46CD /* Sources */,
 				33AB5CAD243714BA00FF46CD /* Frameworks */,
 				33AB5CAE243714BA00FF46CD /* Resources */,
+				BC2D5FF8BCD72B31E4A3A2E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33AB5CCA243714BA00FF46CD /* Build configuration list for PBXNativeTarget "FastKinsUITests" */;
 			buildPhases = (
+				394180B0DDC30CF42FAA9C28 /* [CP] Check Pods Manifest.lock */,
 				33AB5CB7243714BA00FF46CD /* Sources */,
 				33AB5CB8243714BA00FF46CD /* Frameworks */,
 				33AB5CB9243714BA00FF46CD /* Resources */,
+				C99D12F4E82DE6ADA8219F31 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +300,126 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		394180B0DDC30CF42FAA9C28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastKins-FastKinsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		467CE692E1A9548A9A4FEA4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastKinsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CD2E2954DACDAD9F2390246 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastKins-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC2D5FF8BCD72B31E4A3A2E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastKinsTests/Pods-FastKinsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastKinsTests/Pods-FastKinsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FastKinsTests/Pods-FastKinsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C99D12F4E82DE6ADA8219F31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastKins-FastKinsUITests/Pods-FastKins-FastKinsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastKins-FastKinsUITests/Pods-FastKins-FastKinsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FastKins-FastKinsUITests/Pods-FastKins-FastKinsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDB3AD84CD91E93B612EF3C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastKins/Pods-FastKins-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastKins/Pods-FastKins-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FastKins/Pods-FastKins-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		33AB5C96243714B200FF46CD /* Sources */ = {
@@ -432,6 +599,7 @@
 		};
 		33AB5CC5243714BA00FF46CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F190F44620282E6B197CC9E1 /* Pods-FastKins.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +618,7 @@
 		};
 		33AB5CC6243714BA00FF46CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B9D34B62CA1952DE162B9D /* Pods-FastKins.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +637,7 @@
 		};
 		33AB5CC8243714BA00FF46CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D094FAFDA4664B907FC745F /* Pods-FastKinsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +659,7 @@
 		};
 		33AB5CC9243714BA00FF46CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DDCCE5A27F3F1CC79EBBFBB /* Pods-FastKinsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +681,7 @@
 		};
 		33AB5CCB243714BA00FF46CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C7089E7BE35D9813064CA6 /* Pods-FastKins-FastKinsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +701,7 @@
 		};
 		33AB5CCC243714BA00FF46CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CCAB01E296548C39215F4AF /* Pods-FastKins-FastKinsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
