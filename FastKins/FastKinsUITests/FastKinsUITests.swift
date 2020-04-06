@@ -23,11 +23,15 @@ class FastKinsUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
+    func testUIElements() {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
-
+        
+        XCTAssertTrue(app.staticTexts["TestLabel"].exists, "Label Missing")
+        XCTAssertTrue(app.textFields["TestTextField"].exists, "Label Missing")
+        XCTAssertTrue(app.buttons["TestButton"].exists, "Label Missing")
+        
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
