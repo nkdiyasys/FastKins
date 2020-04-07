@@ -22,9 +22,9 @@ class FastKinsTests: XCTestCase {
     }
     func testAdd(){
             let a = 10
-            let b = 30
+            let b = 40
             let sum = a + b
-            XCTAssertTrue(sum == 40, "sum")
+            XCTAssertTrue(sum == 50, "sum")
         }
     
     func testCheck_EmailIsValid(){
