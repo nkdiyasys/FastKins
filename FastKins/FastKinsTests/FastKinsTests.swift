@@ -24,6 +24,7 @@ class FastKinsTests: XCTestCase {
             let a = 10
             let b = 50
             let sum = a + b
+        
             XCTAssertTrue(sum == 60, "sum")
         }
     
