@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         //1
         //2
         //3
+        //4
     }
     @IBAction func clickEmail(_ sender: Any) {
         if let emailField = textField.text {
