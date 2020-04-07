@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         //1
         //2
+        //3
     }
     @IBAction func clickEmail(_ sender: Any) {
         if let emailField = textField.text {
