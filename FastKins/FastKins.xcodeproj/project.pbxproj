@@ -606,10 +606,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K363969745;
+				DEVELOPMENT_TEAM = 4SN6CU7ER3;
 				INFOPLIST_FILE = FastKins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.atria.glowtouch1.FastKins;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atria.glowtouch1.FastKins1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -622,10 +622,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K363969745;
+				DEVELOPMENT_TEAM = 4SN6CU7ER3;
 				INFOPLIST_FILE = FastKins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.atria.glowtouch1.FastKins;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atria.glowtouch1.FastKins1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
