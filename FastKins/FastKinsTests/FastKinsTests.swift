@@ -44,11 +44,11 @@ class FastKinsTests: XCTestCase {
         let isNotValid = vc.isValidEmail(email: email)
         XCTAssertFalse(isNotValid, "Email is Not Valid")
     }
-    func testCheck_EmailNotValidComFail(){
-        let email = "test@gmail.com"
-        let isNotValid = vc.isValidEmail(email: email)
-        XCTAssertFalse(isNotValid, "Email is Not Valid")
-    }
+//    func testCheck_EmailNotValidComFail(){
+//        let email = "test@gmail.com"
+//        let isNotValid = vc.isValidEmail(email: email)
+//        XCTAssertFalse(isNotValid, "Email is Not Valid")
+//    }
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
