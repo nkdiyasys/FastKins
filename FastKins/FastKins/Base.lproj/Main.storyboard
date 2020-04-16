@@ -37,11 +37,21 @@
                                     <action selector="clickEmail:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GTY-yx-Z0N"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LI1-sR-CI3" customClass="PDFView">
+                                <rect key="frame" x="0.0" y="438" width="414" height="414"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="LI1-sR-CI3" secondAttribute="height" multiplier="1:1" id="1zS-Lp-ibq"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Fw3-fv-jyp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="0R2-LR-kgV"/>
+                            <constraint firstItem="LI1-sR-CI3" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="42y-Yp-oIN"/>
                             <constraint firstItem="K3x-DY-lg0" firstAttribute="top" secondItem="dV7-mn-DYi" secondAttribute="bottom" constant="82" id="4Pa-0S-ixb"/>
+                            <constraint firstItem="LI1-sR-CI3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EGH-fd-9ag"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LI1-sR-CI3" secondAttribute="bottom" constant="10" id="F3N-Ga-rOr"/>
                             <constraint firstItem="K3x-DY-lg0" firstAttribute="centerX" secondItem="dV7-mn-DYi" secondAttribute="centerX" id="UZi-WS-s5O"/>
                             <constraint firstItem="dV7-mn-DYi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="ZLk-80-IeX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dV7-mn-DYi" secondAttribute="trailing" constant="100" id="dd3-Qk-MAZ"/>
@@ -52,6 +62,7 @@
                     </view>
                     <connections>
                         <outlet property="checkButton" destination="K3x-DY-lg0" id="h6k-6L-AGh"/>
+                        <outlet property="pdfView" destination="LI1-sR-CI3" id="s4b-Lp-9dq"/>
                         <outlet property="textField" destination="dV7-mn-DYi" id="O3f-WB-KNW"/>
                     </connections>
                 </viewController>
