@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DCE248BFC4463B96C4E5AB9 /* Pods_FastKinsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BC8D413358229145C1F6FF /* Pods_FastKinsTests.framework */; };
-		33457AC52448486900A8E3D6 /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 33457AC42448486900A8E3D6 /* sample.pdf */; };
+		339EAA7F244956F800CB5D19 /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 339EAA7E244956F800CB5D19 /* sample.pdf */; };
 		33AB5C9E243714B200FF46CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AB5C9D243714B200FF46CD /* AppDelegate.swift */; };
 		33AB5CA0243714B200FF46CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AB5C9F243714B200FF46CD /* SceneDelegate.swift */; };
 		33AB5CA2243714B200FF46CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AB5CA1243714B200FF46CD /* ViewController.swift */; };
@@ -40,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		33457AC42448486900A8E3D6 /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample.pdf; sourceTree = "<group>"; };
+		339EAA7E244956F800CB5D19 /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample.pdf; sourceTree = "<group>"; };
 		33AB5C9A243714B200FF46CD /* FastKins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastKins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AB5C9D243714B200FF46CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33AB5C9F243714B200FF46CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 		33AB5C9C243714B200FF46CD /* FastKins */ = {
 			isa = PBXGroup;
 			children = (
-				33457AC42448486900A8E3D6 /* sample.pdf */,
+				339EAA7E244956F800CB5D19 /* sample.pdf */,
 				33AB5C9D243714B200FF46CD /* AppDelegate.swift */,
 				33AB5C9F243714B200FF46CD /* SceneDelegate.swift */,
 				33AB5CA1243714B200FF46CD /* ViewController.swift */,
@@ -285,7 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33457AC52448486900A8E3D6 /* sample.pdf in Resources */,
+				339EAA7F244956F800CB5D19 /* sample.pdf in Resources */,
 				33AB5CAA243714BA00FF46CD /* LaunchScreen.storyboard in Resources */,
 				33AB5CA7243714BA00FF46CD /* Assets.xcassets in Resources */,
 				33AB5CA5243714B200FF46CD /* Main.storyboard in Resources */,
